@@ -1,0 +1,22 @@
+{
+  "name": "rotas-api-js",
+  "version": "0.0.1",
+  "description": "Api da aplicação Rotas desenvolvida em JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murilogxp/Rotas-Api-Js.git"
+  },
+  "author": "Murilo Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murilogxp/Rotas-Api-Js/issues"
+  },
+  "homepage": "https://github.com/murilogxp/Rotas-Api-Js#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
