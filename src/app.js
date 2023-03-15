@@ -1,12 +1,15 @@
 import express from "express";
 import cors from "cors";
 import router from "./routes.js";
+import * as dotenv from "dotenv";
 
-const port = process.env.PORT || 3000;
+dotenv.config();
+
+const port = process.env.EXPRESS_PORT || 3000;
 const app = express();
 app.use(
   cors({
-    origin: "*",
+    origin: process.env.CORS_ORIGIN || "*",
   })
 );
 app.use(router);
